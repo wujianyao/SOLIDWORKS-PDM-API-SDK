@@ -1,0 +1,22 @@
+# Default text files to LF in repo, auto-convert on checkout
+* text=auto eol=lf
+
+# Windows project files use CRLF locally
+*.cs eol=crlf
+*.vb eol=crlf
+*.bat eol=crlf
+*.ps1 eol=crlf
+*.config eol=crlf
+*.resx eol=crlf
+
+# Binary files, no line ending conversion
+*.jpg binary
+*.png binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.zip binary
+*.rar binary
